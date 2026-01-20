@@ -7,6 +7,7 @@ Trata-se de uma plataforma de trabalho que une documentos, planilhas e aplicativ
 Relacionado abaixo estão:
 
 Vídeo tutorial sobre a plataforma CODA
+
 🔗 [Vídeo Tutorial plataforma Coda](https://www.youtube.com/watch?v=lYkJHDyS5kE)
 
 Link com scripts e Prints da tela de resultado dos exercícios de SQL:
