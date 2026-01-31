@@ -1,1 +1,2 @@
 
+Raise força uma exceção, sem necessariamente esperar que o computador detecte o erro, podendo neste caso, o desenvolvedor causar a exceção, corrigindo o problema previamente detectado.
