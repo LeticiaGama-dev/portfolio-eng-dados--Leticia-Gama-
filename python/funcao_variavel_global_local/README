@@ -1,1 +1,15 @@
+ Variáveis Global e Local
 
+Indica onde a variável é visível e/ou acessível no código.
+
+
+
+Variáveis globais :
+são criadas foras das funções. 
+Podem ser chamadas em todo o código
+É uma pratica que deve ser evitada sempre que possível.
+
+Variáveis locais:
+São criadas dentro de uma função.
+Só funcionam dentro delas, se chamadas fora da função, não funcionam.
+Devem ser priorizadas em um código.
