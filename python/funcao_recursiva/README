@@ -1,1 +1,5 @@
+Funções recursivas
 
+Divisão de problemas em subproblemas, que são unidos e resolvendo o problema geral.
+
+Trata-se de uma função que chama a si própria quando invocada.
