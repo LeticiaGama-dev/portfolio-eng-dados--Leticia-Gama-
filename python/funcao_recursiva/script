@@ -1,0 +1,23 @@
+# Fatorial:
+# A fórmula geral é:
+# fatorial(num) = 1, se num =0 ou se num = 1 #Este será o 'Caso Base'
+# fatorial(num) = num * fatorial(num-1), para num >1 #este será o caso recursivo
+# ou seja, se num for > 1 ai ele será o numero multiplicado pelo fatorial do seu antecessor
+# O Caso-Base é aquele que te dá o resultado direto. Todo algoritmo recursivo precisa de um 
+# Caso-Base para funcionar pois é ele que finaliza o cálculo recursivo.
+# O Caso Recursivo chama a si proprio, diversas vezes, até chegar no Caso-Base
+
+def fatorial(numero):
+    if numero == 0 or numero == 1:
+        return 1
+    else:
+        return numero * fatorial(numero -1)
+    
+if __name__ == '__main__':
+    x = int(input('Digite um número inteiro ´positivo para calcular seu fatorial: '))
+    try:
+        res = fatorial(x)
+    except RecursionError:
+        print(f'O número fornecido é muito grande ou negativo.')
+    else:
+        print(f'O fatorial de {x} é {res}')
