@@ -1,0 +1,22 @@
+def div (k , j):
+    return round(k / j , 2)
+
+if __name__ =='__main__':
+    while True:
+        try:
+            n1 = int(input( 'Digite um número: '))
+            n2 = int(input('Digite outro número: '))
+            break
+        except ValueError: # caso ocorra erro de valor
+            print('Ocorreu um erro de valor, digite novamente.')
+
+    try:
+        r = div( n1, n2)
+    except ZeroDivisionError: #erro de divisão por zero
+        print('Não é possível dividir por zero!')
+    except: # aqui fica demonstrado que não precisamos deixar explicito para o codigo o tipo de erro
+        print('Ocorreu um erro desconhecido...')
+    else:
+        print(f'Resultado: {r}')
+    finally: #Bloco de código que sempre será executado, dando ou não erro
+        print(f'Fim do cálculo!')
