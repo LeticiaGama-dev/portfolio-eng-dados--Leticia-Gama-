@@ -1,1 +1,8 @@
 
+Função map
+
+É interna do python e permite aplicar uma outra função a cada elemento de um objeto iterável. 
+
+Retorna um objeto do tipo map.
+Por vezes é usada junto com Lambda.
+É uma função de ordem SUPERIOR.
