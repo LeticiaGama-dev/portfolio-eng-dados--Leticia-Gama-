@@ -1,5 +1,0 @@
-
-Função com polimorfismo
-
-O valor do resultado se altera conforme os argumentos passados.
-No caso do exemplo, o valor se altera conforme os parâmetros opcionais e obrigatórios.
