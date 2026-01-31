@@ -1,0 +1,5 @@
+Exceções Definidas pelo usuário
+
+São funções criadas pelo próprio usuário. 
+São criadas para situações específicas e não previstas pelo programa.
+Para isso é criado uma classe derivada da classe Exception.
