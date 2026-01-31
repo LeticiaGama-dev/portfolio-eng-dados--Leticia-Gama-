@@ -1,0 +1,17 @@
+from math import sqrt
+
+class NumeroNegativoError(Exception):   # Cria derivado da classe Exception, por isso Exception entre ()
+    def __init__(self):
+        pass                            #pass é do "grupo" do continue e do break, neste caso diz para seguir adiante pq foi só exemplo
+
+if __name__ == '__main__':
+    try:
+        num = int(input('Digite um número positivo: '))
+        if num < 0:
+            raise NumeroNegativoError  # O programa detectou automaticamente a classe criada
+    except NumeroNegativoError: #observar que except não tem ':'
+        print(f'Foi fornecido um número negativo!')
+    else:
+        print(f' A raiz quadrada de {num} é {sqrt(num)}')
+    finally:
+        print('Fim do cálculo!')
