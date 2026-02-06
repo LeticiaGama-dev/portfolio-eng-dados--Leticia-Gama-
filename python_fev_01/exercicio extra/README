@@ -1,0 +1,10 @@
+Exercício 2 (não obrigatório)
+Objetivo
+
+Criar um sistema que:
+
+    Leia 6 números do seu usuário de 1 a 100
+    Sorteie 6 números aleatórios de 1 a 100
+    Retorne todos os números sorteados
+    Retorne quantos e quais números o usuário acertou
+    Se acertou os 6 retorne que ele ganhou
