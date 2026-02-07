@@ -35,6 +35,6 @@ contagem_vazios = vendas_df.isnull().sum() # soma quantos vazios tem na tabela o
 ranking_vazios = contagem_vazios.sort_values(ascending = False) #ordena de forma decrescente
 #print(ranking_vazios)
 
-# Salvando o DataFrame limpo em um novo arquivo CSV
-vendas_limpo_df.to_csv('vendas_limpas_final.csv', index=False, encoding='utf-8-sig', sep=';')
+# Salvando o DataFrame limpo em um novo arquivo CSV(padrão internacional para o GitHub)
+vendas_limpo_df.to_csv('vendas_limpas_final.csv', index=False, encoding='utf-8', sep=',')
 
