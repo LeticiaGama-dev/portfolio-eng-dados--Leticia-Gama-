@@ -19,6 +19,5 @@ Além da limpeza, busquei respostas para os seguintes problemas:
    4- Qual cidade lidera o ranking de consumo?
    5- Qual é o faturamento total por período (data)?
    6- Qual é a forma de pagamento preferida dos clientes?
-   7- Como os produtos se distribuem dentro de cada categoria?
-   8- Quantas linhas foram removidas devido a dados incompletos? (No seu caso, 33 de 44 originais)
-   9- Quais colunas apresentavam o maior índice de vazios (NaN)?
+   7- Quantas linhas foram removidas devido a dados incompletos? (No seu caso, 33 de 44 originais)
+   8- Quais colunas apresentavam o maior índice de vazios (NaN)?
