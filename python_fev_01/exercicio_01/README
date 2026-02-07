@@ -1,1 +1,11 @@
+Exercício 1 (obrigatótio)
 
+Objetivo
+
+Criar um sistema que:
+
+1. Lê um CSV com dados de vendas usando pandas.
+2. Faz limpeza básica de dados.
+3. Calcula estatísticas de vendas e outros dados que você considerar útil.
+4. Cria um relatório (CSV ou TXT) ou imprima na tela, como achar melhor.
+5. Gera gráficos simples (plus, não obrigatório)
