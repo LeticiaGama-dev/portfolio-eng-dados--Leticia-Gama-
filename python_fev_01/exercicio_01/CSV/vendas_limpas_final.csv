@@ -1,0 +1,12 @@
+produto,quantidade,preco,data,categoria,cidade,vendedor,forma_pagamento,faturamento
+cafe,10.0,7.5,2024-01-05,bebidas,São Paulo,Ana,credito,75.0
+leite,7.0,4.0,2024-01-11,laticinios,Curitiba,João,credito,28.0
+cha,3.0,5.0,2024-01-13,bebidas,Rio de Janeiro,Marina,pix,15.0
+pao,18.0,1.2,2024-01-13,padaria,São Paulo,João,credito,21.6
+manteiga,2.0,9.0,2024-01-15,laticinios,Rio de Janeiro,Carlos,dinheiro,18.0
+cha,5.0,5.0,2024-01-15,bebidas,Curitiba,João,credito,25.0
+leite,6.0,4.0,2024-01-17,laticinios,Curitiba,Marina,credito,24.0
+manteiga,5.0,9.0,2024-01-17,laticinios,Belo Horizonte,Carlos,pix,45.0
+cafe,11.0,7.5,2024-01-18,bebidas,Curitiba,Marina,debito,82.5
+pao,25.0,1.2,2024-01-18,padaria,Rio de Janeiro,João,dinheiro,30.0
+pao,30.0,1.2,2024-01-20,padaria,São Paulo,Marina,pix,36.0
