@@ -1,0 +1,45 @@
+produto,quantidade,preco,data,categoria,cidade,vendedor,forma_pagamento
+cafe,10,7.5,2024-01-05,bebidas,São Paulo,Ana,credito
+leite,5,4.0,2024-01-05,laticinios,Rio de Janeiro,,debito
+acucar,,3.0,2024-01-06,mercearia,São Paulo,Ana,
+cafe,3,,2024-01-06,bebidas,Belo Horizonte,João,pix
+cha,4,5.0,,bebidas,Curitiba,Marina,credito
+pao,15,1.2,2024-01-07,padaria,,Ana,dinheiro
+queijo,2,12.5,2024-01-08,laticinios,Rio de Janeiro,Carlos,
+cafe,8,7.5,2024-01-08,,São Paulo,Marina,pix
+acucar,5,3.0,2024-01-08,mercearia,Curitiba,,dinheiro
+manteiga,3,9.0,2024-01-09,laticinios,Belo Horizonte,Ana,
+cha,6,,2024-01-09,bebidas,São Paulo,Carlos,credito
+pao,20,1.2,2024-01-10,padaria,Rio de Janeiro,Marina,
+cafe,12,7.5,2024-01-10,bebidas,,Ana,pix
+leite,7,4.0,2024-01-11,laticinios,Curitiba,João,credito
+acucar,4,,2024-01-11,mercearia,São Paulo,Carlos,debito
+queijo,1,12.5,,laticinios,Curitiba,Marina,pix
+manteiga,4,9.0,2024-01-12,,Belo Horizonte,Ana,credito
+cafe,6,7.5,2024-01-12,bebidas,São Paulo,,dinheiro
+cha,3,5.0,2024-01-13,bebidas,Rio de Janeiro,Marina,pix
+pao,18,1.2,2024-01-13,padaria,São Paulo,João,credito
+cafe,14,7.5,,bebidas,Curitiba,Ana,pix
+acucar,6,3.0,2024-01-14,,São Paulo,Carlos,debito
+leite,8,4.0,2024-01-14,laticinios,Belo Horizonte,,credito
+queijo,3,12.5,2024-01-15,laticinios,São Paulo,Ana,
+manteiga,2,9.0,2024-01-15,laticinios,Rio de Janeiro,Carlos,dinheiro
+cha,5,5.0,2024-01-15,bebidas,Curitiba,João,credito
+pao,22,,2024-01-16,padaria,São Paulo,Marina,pix
+cafe,9,7.5,2024-01-16,bebidas,Rio de Janeiro,Ana,
+leite,6,4.0,2024-01-17,laticinios,Curitiba,Marina,credito
+acucar,3,3.0,,mercearia,São Paulo,João,dinheiro
+manteiga,5,9.0,2024-01-17,laticinios,Belo Horizonte,Carlos,pix
+cha,4,5.0,2024-01-18,bebidas,São Paulo,Ana,
+cafe,11,7.5,2024-01-18,bebidas,Curitiba,Marina,debito
+pao,25,1.2,2024-01-18,padaria,Rio de Janeiro,João,dinheiro
+queijo,4,12.5,2024-01-18,,São Paulo,Carlos,pix
+cafe,7,7.5,2024-01-19,bebidas,Curitiba,,credito
+leite,9,,2024-01-19,laticinios,São Paulo,Marina,pix
+acucar,5,3.0,2024-01-20,mercearia,Rio de Janeiro,João,
+cha,8,5.0,2024-01-20,,Belo Horizonte,Carlos,debito
+manteiga,3,9.0,2024-01-20,laticinios,Curitiba,Ana,
+pao,30,1.2,2024-01-20,padaria,São Paulo,Marina,pix
+queijo,2,12.5,2024-01-21,laticinios,Rio de Janeiro,Carlos,
+leite,10,4.0,,laticinios,São Paulo,Ana,dinheiro
+cafe,13,7.5,2024-01-21,bebidas,Belo Horizonte,João,
