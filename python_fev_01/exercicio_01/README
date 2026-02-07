@@ -9,3 +9,16 @@ Criar um sistema que:
 3. Calcula estatísticas de vendas e outros dados que você considerar útil.
 4. Cria um relatório (CSV ou TXT) ou imprima na tela, como achar melhor.
 5. Gera gráficos simples (plus, não obrigatório)
+
+
+Além da limpeza, busquei respostas para os seguintes problemas:
+
+   1- Qual produto vendeu mais em quantidade?
+   2- Qual categoria de produtos teve o maior faturamento?
+   3- Qual vendedor alcançou o maior valor total de vendas?
+   4- Qual cidade lidera o ranking de consumo?
+   5- Qual é o faturamento total por período (data)?
+   6- Qual é a forma de pagamento preferida dos clientes?
+   7- Como os produtos se distribuem dentro de cada categoria?
+   8- Quantas linhas foram removidas devido a dados incompletos? (No seu caso, 33 de 44 originais)
+   9- Quais colunas apresentavam o maior índice de vazios (NaN)?
