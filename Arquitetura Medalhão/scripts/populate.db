@@ -1,0 +1,7 @@
+#populate.db carrega os dados processados para o banco de dados
+
+from db import DB
+import pandas as pd
+import os
+
+db = DB(host="localhost", port=5444, database="postgres", user="postgres", password="1234")
