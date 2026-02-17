@@ -1,1 +1,26 @@
+# Pipeline de Dados: Arquitetura Medalhão com Docker e Python
+
+Este projeto demonstra a implementação de um pipeline de engenharia de dados utilizando a **Arquitetura Medalhão** para processar dados de usuários, produtos e CEPs.
+
+## Tecnologias Utilizadas
+
+* **Linguagem**: Python
+* **Banco de Dados**: PostgreSQL rodando em container **Docker**
+* **Bibliotecas Principais**: Pandas, SQLAlchemy, Matplotlib, Pyarrow e Psycopg2
+* **Ambiente de Desenvolvimento**: VS Code com extensões SQLTools e Jupyter Notebook
+
+## Arquitetura do Projeto
+
+O projeto segue a lógica de camadas para transformação de dados:
+
+1. **Ingestão**: Leitura de dados brutos em formatos CSV e JSON.
+2. **Processamento (Silver)**: Conversão dos dados para o formato **Parquet**, garantindo maior performance e compressão.
+3. **Armazenamento**: Carga dos dados processados no banco de dados PostgreSQL via SQLAlchemy, utilizando a porta customizada **5444**.
+4. **Análise (Gold)**: Criação de consultas SQL para extração de métricas e geração de visualizações gráficas de distribuição de usuários.
+
+## Como Executar
+
+1. Certifique-se de que o Docker está rodando e o container do banco ativo na porta 5444.
+2. Execute o script `populate_db.py` para carregar as tabelas.
+3. Utilize o notebook `data-view.ipynb` para visualizar as análises e o gráfico final.
 
