@@ -1,1 +1,4 @@
 
+O projeto tem como objetivo a criação de uma API
+Foi criado um arquivo .env com objetivo de proteger os dados da chave.
+O projeto foi executado em python
